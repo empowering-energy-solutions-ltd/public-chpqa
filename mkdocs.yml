@@ -1,0 +1,26 @@
+site_name: CHPQA
+
+theme:
+  name: "material"
+  
+plugins:
+  - mkdocstrings
+
+nav:
+  - 'Introduction': 'index.md'
+  - 'CHPQA Process': 'explanation.md'
+  - 'How to Guide': 'how-to-guides.md'
+  - Documentation: 
+    - 'Overview': 'reference.md'
+    - Data: 
+      - 'Import Data': 'import_data.md'
+      - 'Source': 'source.md'
+    - Models:
+      - 'Report': 'report.md'
+      - 'Technology': 'data_manager.md'
+    - Frontend: 
+      - 'Streamlit App & Content': 'front_end.md'
+      - 'Streamlit objects': 'streamlit_obj.md'
+      - 'Utilities': 'utils.md'
+    - Backend:
+      - 'FastAPI app': 'back_end.md'
